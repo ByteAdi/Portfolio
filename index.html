@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Kangule's Portfolio</title>
+    <meta name="description" content="Aditya Kangule's personal portfolio showcasing skills, projects, and experience in electronics engineering and embedded systems.">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/theme-switcher.css">
+    <style>
+        /* Container styling for hero section */
+        #wrapper--hero {
+            display: flex;
+            align-items: center;
+            gap: 20px; /* Adjust the space between image and bio */
+            margin-bottom: 30px;
+        }
+
+        /* Profile picture styling */
+        #profile-pic {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            flex-shrink: 0; /* Prevent the image from shrinking */
+        }
+
+        /* Styling for the bio section */
+        #bio {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        .bio-paragraph {
+            margin-bottom: 20px;
+        }
+
+        /* Social links styling */
+        .social-links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="container--main">
+
+        <!-- Hero Section -->
+        <section id="wrapper--hero" class="section--page">
+            <img id="profile-pic" src="mypic.jpg" alt="Profile Picture">
+            <div>
+                <h1 id="user-name">Aditya Kangule</h1>
+                <p id="bio">
+                    Electronics Engineer at MIT Academy of Engineering with a strong focus on the core electronics domain and a passion for coding. Exploring digital electronics domains such as VLSI, SoC. Interested in microprocessor coding. I am particularly interested in VLSI design, SoC design, embedded programming, and Verilog coding.
+                </p>
+                <p class="bio-paragraph">
+                    I am proficient in coding languages such as Verilog and C/C++ and am eager to apply my knowledge and enthusiasm in real-world scenarios through internships and job opportunities. My strong technical foundation, combined with my passion for continuous learning, makes me a promising candidate for positions in the electronics and embedded systems industry.
+                </p>
+                <p id="email">👉 aditya.kangule@example.com</p>
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/aditya-kangule/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/adityakangule" target="_blank">GitHub</a>
+                </div>
+                <!-- Download Resume Button -->
+                <a href="./assets/files/Aditya_Kangule_Resume.pdf" class="download-btn" download>Download Resume</a>
+            </div>
+        </section>
+
+        <!-- Skills & Qualifications -->
+        <section class="section--page">
+            <h2>Skills & Qualifications</h2>
+            <ul id="qualifications--list">
+                <li>✔️ Proficient in C, C++.</li>
+                <li>✔️ Learning VHDL, Verilog.</li>
+                <li>✔️ Knowledge in Digital Logic Design and MATLAB.</li>
+            </ul>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="section--page">
+            <h2>Tech Stack</h2>
+            <div id="wrapper--techstack__items">
+                <div class="card--techstack"><span>C, C++</span></div>
+                <div class="card--techstack"><span>VHDL, Verilog</span></div>
+                <div class="card--techstack"><span>Digital Logic Design, MATLAB</span></div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section--page">
+            <h2>Projects & Accomplishments</h2>
+            <div class="card--project">
+                <a href="project1.html"><span>🏆 </span>Simulation and Analysis of Microstrip Patch Antenna for WLAN Applications</a>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="section--page">
+            <h2>Certifications</h2>
+            <div class="card--certification">
+                <strong>NPTEl: Digital Circuits</strong>
+                <p>Aggregate: 64.50 / 100</p>
+                <p>The course "Digital Circuits" offered by IIT Kharagpur covers fundamental and advanced topics in digital electronics, including Boolean algebra, logic gates, combinational and sequential circuits, and state machines. It includes an introduction to Microcontrollers and Microprocessors.</p>
+                <ul>
+                    <li>Digital System Design</li>
+                    <li>Microcontroller and Processor Fundamentals</li>
+                    <li>Problem-Solving and Analytical Thinking</li>
+                    <li>Boolean Algebra and Logic Gates</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section id="contact-info" class="section--page">
+            <h2>Contact Information</h2>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Marital Status:</strong> Single</p>
+            <p><strong>Date of Birth:</strong> 04 Jan, 2005</p>
+            <p><strong>Known Languages:</strong> Marathi, English, Hindi</p>
+            <p><strong>Current Address:</strong> I - 108, Splendid Park Pro., Dudulgaon, Pune, Maharashtra, India - 412105</p>
+            <p><strong>Permanent Address:</strong> 401, Sahara Sun-shine Apartment, Keshav Nagar, Latur, Maharashtra, India - 413512</p>
+            <p><strong>Phone Numbers:</strong> +91-8625908409, +91-9423909409</p>
+            <p><strong>Emails:</strong> aditya.kangule@example.com</p>
+        </section>
+
+    </div>
+    <div id="theme-switcher">
+        <div class="theme" id="theme-light" data-theme="light"></div>
+        <div class="theme" id="theme-dark" data-theme="dark"></div>
+    </div>
+    <script src="js/theme-switcher.js"></script>
+</body>
+</html>
